@@ -1,0 +1,67 @@
+h1{
+    color: black
+}
+img {
+    width: 400px;
+}
+#third_div{
+    display: flex;
+    position: relative;
+    height : 600px;
+    width: 500px;
+    background-color: lightsteelblue;
+    padding: 50px;
+    border: 2px solid black;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+}
+#span_id{
+    font-size: 18px;
+    margin: 50px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li {
+    font-size: 20px;
+    position: relative;
+    left: 150px;   
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.div_class {
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    background-color:cadetblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border: 1px black dotted;
+}
+
+h1, h3, h4{
+    padding: 5px;
+    margin: 5px auto;
+}
+
+#span_id, a {
+    padding: 5px;
+    margin: 5px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+
+body {
+    background-image: url('https://i.stack.imgur.com/jGlzr.png');
+}
